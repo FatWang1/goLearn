@@ -1,0 +1,6 @@
+diskSign: d
+destination:
+    ip: 122.9.42.88
+    postPort: 8810
+    tcpPort: 2333
+version: 1.0.0
