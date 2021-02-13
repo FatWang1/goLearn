@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签</title>
+    <link href="../static/css/textsheet.css" rel="stylesheet">
+</head>
+<body>
+{{template "block/nav.html" .}}
+<div id="main">
+    <h1>标签</h1>
+    <div id="project-list">
+        {{range $k,$v := .Tags}}
+        <div><a href="/?project={{$k}}"><span class="global-color">{{$k}}</span> 有{{$v}}篇纪要</a></div>
+        {{end}}
+    </div>
+</div>
+</body>
+</html>

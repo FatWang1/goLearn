@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Projects\Golang\Golang-100-Days\Day38-41(beego框架开发博客系统)\code\day41_3、关于我和项目总结\myblog\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
